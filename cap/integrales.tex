@@ -1,0 +1,22 @@
+\chapter{Integrales}
+\section{Integrales definidas y teorema del cambio neto}
+\subsection{Integrales indefinidas}
+Ambas partes del teorema fundamental establecen relaciones entre antiderviadas e integrales definidas. La parte 1 establece que si $f$ es continua, entonces $\int_a^xf(t)\dd t$ es una antiderivada de $f$. La parte 2 plantea que $\int_a^bf(x)\dd x$ puede determinarse evaluando $F(b)-F(a)$ , donde $F$ es una antiderviada de $f$.
+
+Necesitamos una conveniente notación para las antiderivadas que nos facilite el trabajo con ellas. Debido a la realción dada por el teorema fundamental entre las antiderviadas y las integrales, por tradición se usa la notción $\int f(x)\dd x$ para una antiderivada de $f$ y se llama \textbf{integral indefinida}. Así,
+\begin{equation}
+	\boxed{\int f(x)\dd x=F(x)\quad \mbox{ significa que  }F'(x)=f(x)}
+\end{equation}
+De este modo, consderamos la integral indefinida como la representante de toda una familia de funciones (es decir, una antiderivada para cada valor constante de $C$). 
+
+La relación entre ellas la proporciona la parte 2 del teorema fundamental. Si $f$ es continua sobre $[a,b]$, entonces $$\int_a^bf(x)\dd x=\left. \int f(x)\dd x\right]_a^b$$ La eficacion del teorema fundamental depende de que se cuente con una lista de antiderivadas de funciones. Por tanto, se preenta de nuevo la tabla de fórmulr de antiderivación, mas otras cuantas, en la notación de las integales indefinidas. Cualquiera de las fórmulas puede comprobarse al derivar la función de lado derecho para obtener el integrando. Por ejemplo, $$\int \sec^2x\dd x=\tan x+C\quad\mbox{ porque  }\quad \frac{\dd}{\dd x}(\tan x+C)=\sec^2 x$$
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{| c | c |}
+			$\int cf(x)\dd x=c\int f(x)\dd x$ & $\int [f(x)+g(x)]\dd x=\int f(x)\dd x + \int g(x)\dd x$\\
+			$\int k\dd x=kx +C$&\\
+		\end{tabular}
+	\end{center}
+\end{table}
+
