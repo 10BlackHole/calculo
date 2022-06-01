@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{Prefacio}{\es@scroman {i}}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Integrales}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Integrales definidas y teoremad del cambio neto}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Integrales indefinidas}{2}{subsection.1.1.1}
